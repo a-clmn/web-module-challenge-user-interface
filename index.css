@@ -1,12 +1,14 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 
+* {
+  color: #3C373B
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
   font-size: 60px;
-  color: #3C373B;
   text-align: center;
 }
 
@@ -101,6 +103,10 @@ color: pink;
    line-height: 2;
 */
 
+.contact-section {
+  line-height: 2;
+}
+
 footer {
   width: 100%;
   background: #F87B99;
@@ -128,6 +134,11 @@ footer nav {
   text-decoration: underline;
 */
 
+.footer {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
 
 footer nav a:first-child {
   margin-left: 0;
@@ -136,6 +147,10 @@ footer nav a:first-child {
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
 */
+
+footer:hover {
+  color: white;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
